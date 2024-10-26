@@ -1,0 +1,7 @@
+cd Desktop
+clear
+
+zip2john testing.zip
+zip2john testing.zip > hash.txt
+
+john --format=zip hash.txt

@@ -1,0 +1,14 @@
+wget https://artifacts.picoctf.net/c/103/bloat.flag.py
+ wget https://artifacts.picoctf.net/c/103/flag.txt.enc
+
+rm flag.txt.enc
+rm flag.txt.enc.1 
+
+mv flag.txt.enc.1 flag.txt.enc
+
+run the bloat:
+
+python bloat.flag.py
+pass: 
+
+vi bloat.flag.py
